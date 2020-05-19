@@ -1,0 +1,39 @@
+{
+  "name": "empty",
+  "description": "TODO: 描述",
+  "main": "./dist/index.js",
+  "bin": {
+    "prerender": "dist/bin/index.js"
+  },
+  "version": "0.0.1",
+  "author": "Zhicheng Wang<asnowwolf@gmail.com>",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "scripts": {
+    "prelink": "rm -fr dist && tsc",
+    "prepublish": "rm -fr dist && tsc"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/lodash": "^4.14.121",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^9.6.41",
+    "@types/yargs": "^12.0.8",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "yargs": "^12.0.5"
+  }
+}
